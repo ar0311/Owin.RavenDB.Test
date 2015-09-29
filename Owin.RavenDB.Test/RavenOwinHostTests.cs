@@ -8,7 +8,7 @@ namespace Owin.RavenDB.Test
 {
     public class RavenOwinHostTests
     {
-        const string Url = "http://localhost:80/";
+        const string Url = "http://localhost:65000/";
 
         [Fact]
         public void Can_save_and_retrieve_document()
